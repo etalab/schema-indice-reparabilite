@@ -1,64 +1,49 @@
-# Template de départ pour Table Schema
+# Répertoire national de l’indice de réparabilité
 
-Ce dépôt contient les fichiers nécessaires pour démarrer la création d'un dépôt pour un schéma [Table Schema](https://specs.frictionlessdata.io/table-schema/).
+L’indice de réparabilité est une note sur 10 obligatoire en France, indiquant le caractère plus ou moins réparables des produits. L’affichage obligatoire d’un indice de réparabilité est institué par l’article 16 de la loi n° 2020-105 du 10 février 2020 de lutte contre le gaspillage et pour l’économie circulaire, pour les produits électriques et électroniques. En affichant une note sur 10, cet indice informe les consommateurs sur le caractère plus ou moins réparable des produits concernés. Il s’applique depuis le 1er janvier 2021 aux smartphones, ordinateurs portables, téléviseurs, tondeuses à gazon, et lave-linges hublot et depuis le 4 novembre 2022 aux lave-linges top, lave-vaisselles, aspirateurs, nettoyeurs haute-pression.
+Cette information sensibilise les consommateurs sur la possibilité d’allonger la durée de vie et d’utilisation de leurs appareils, notamment en orientant leurs comportements d’achat vers des produits plus facilement réparables et en les incitant à recourir davantage à la réparation en cas de panne.
+Il constitue un outil de lutte contre l’obsolescence – programmée ou non - pour éviter la mise au rebut trop précoce des produits et préserver les ressources naturelles nécessaires à leur production.
+À partir de 2024, cet indice sera progressivement remplacé par l’indice de durabilité, en commençant par les smartphones, les lave-linges et les téléviseurs. Le nouvel indice prendra en compte en plus de la réparabilité de nouveaux critères comme la robustesse et la possibilité de maintenance et d’entretien des produits.
 
-## Utiliser ce template
+## Contexte
+Dans le but de constituer un répertoire national de données relatif à l’indice de réparabilité, ouvert et accessible à tous, les fabricants ou metteurs sur le marché des produits concernés ont la possibilité de publier sur la plateforme data.gouv.fr les données ayant permis le calcul de l’indice. Cette ouverture de données doit être conforme aux schémas de données statique et dynamique en vigueur.
+Le renseignement du répertoire national relatif à l’indice de réparabilité est dans un premier temps volontaire. Cette démarche deviendra obligatoire dans le cadre de l’indice de durabilité.
 
-- Si vous créez votre dépôt sur GitHub, il vous suffit d'appuyer sur le bouton vert "Use this template". Consultez [la documentation](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) pour plus d'infos ;
-- Si votre projet sera hébergé ailleurs (par exemple Gitlab), vous pouvez cloner ce répertoire ou télécharger les fichiers correspondants. Utilisez le bouton "Clone or download".
+## Documents de cadrage juridique
+- [Loi n°2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000041553759),
+- [Décret n°2020-1757 du 29 décembre 2020 relatif à l'indice de réparabilité des équipements électriques et électroniques](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042837821),
+- [Arrêté du 29 décembre 2020 relatif aux modalités d'affichage, à la signalétique et aux paramètres généraux de calcul de l'indice de réparabilité](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042838100),
+- [Arrêté du 29 décembre 2020 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des lave-linges ménagers à chargement frontal](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042838115),
+- [Arrêté du 29 décembre 2020 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des ordinateurs portables](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042838127),
+- [Arrêté du 29 décembre 2020 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des téléphones mobiles multifonctions](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042838138),
+- [Arrêté du 29 décembre 2020 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des téléviseurs](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042838149),
+- [Arrêté du 29 décembre 2020 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des tondeuses à gazon électriques filaires](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042838162),
+- [Arrêté du 29 décembre 2020 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des tondeuses électriques batteries](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042838173),
+- [Arrêté du 29 décembre 2020 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des tondeuses électriques robot](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000042838185),
+- [Arrêté du 22 avril 2022 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des aspirateurs filaires](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045742661),
+- [Arrêté du 22 avril 2022 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des aspirateurs non filaires](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045742718),
+- [Arrêté du 22 avril 2022 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des aspirateurs robots](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045742672),
+- [Arrêté du 22 avril 2022 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des lave-linge ménagers à chargement par le dessus](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045742683),
+- [Arrêté du 22 avril 2022 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des lave-vaisselle ménagers](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045742695),
+- [Arrêté du 22 avril 2022 relatif aux critères, aux sous-critères et au système de notation pour le calcul et l'affichage de l'indice de réparabilité des nettoyeurs à haute pression](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045742707).
 
-## Fichiers disponibles
+## Création d'un fichier de données conforme
 
-Ce dépôt contient un ensemble de fichiers utiles pour un dépôt d'un schéma [Table Schema](https://specs.frictionlessdata.io/table-schema/).
+* Les données collectées doivent respecter un formalisme particulier (schéma de données) décrit sur [la section documentation](https://schema.data.gouv.fr/etalab/schema-indice-reparabilite/latest/documentation.html) de cette page.
+* Les données sont à remplir au format CSV, encodage UTF-8.
+* Plusieurs solutions existent pour générer ce fichier CSV.
 
-- [`CHANGELOG.md`](CHANGELOG.md) contient la liste des changements entre les différentes versions de votre schéma ;
-- [`exemple-valide.csv`](exemple-valide.csv) est un fichier CSV d'exemple conforme par rapport au schéma décrit dans `schema.json`  ;
-- [`LICENSE.md`](LICENSE.md) est le fichier de licence du dépôt. Nous recommandons d'utiliser la [Licence Ouverte](https://www.etalab.gouv.fr/licence-ouverte-open-licence), cette licence est recommandée par l'administration française pour le partage de données et de documents ;
-- [`README.md`](README.md) est le fichier que vous lisez actuellement. À terme, il devra présenter votre schéma ;
-- [`requirements.txt`](requirements.txt) liste les dépendances Python nécessaires pour effectuer des tests en intégration continue sur votre dépôt ;
-- [`schema.json`](schema.json) est le schéma au format Table Schema.
+## Utilisation de notre outil d'aide à la saisie
 
-### Intégration continue
+Pour faciliter le remplissage des données, Etalab met à disposition un générateur CSV conforme au schéma de données, vous permettant de remplir les différents champs demandés. Cet outil vous permet de vous assurer que les données que vous remplissez sont au bon format. Pour l'utiliser, rendez-vous sur [publier.etalab.studio](https://publier.etalab.studio/select?schema=etalab%2Fschema-indice-reparabilite), vous pourrez alors publier votre fichier à partir : 
+- d'un fichier csv déjà existant. (vous pouvez partir de [ce fichier exemple](https://github.com/etalab/schema-indice-reparabilite/blob/master/exemple-valide.csv)).
+- d'un formulaire
+- d'un tableur (encore en expérimentation)
 
-Ce dépôt est configuré pour utiliser de l'intégration continue, si vous utilisez GitHub. À chaque commit, une suite de tests sera lancée via [GitHub Actions](https://github.com/features/actions) afin de vérifier :
+Une fois vos données chargées ou remplies, un formulaire vous proposera de les publier sur data.gouv.fr.
 
-- que votre schéma est valide à la spécification Table Schema ;
-- que vos fichiers d'exemples sont conformes au schéma.
-
-Si vous n'utilisez pas GitHub, vous pouvez lancer ces tests sur votre machine ou sur un autre service d'intégration continue comme Gitlab CI, Jenkins, Circle CI, Travis etc. Consultez la configuration utilisée dans [`.github/workflows/test.yml`](.github/workflows/test.yml).
-
-Localement, voici la procédure à suivre pour installer l'environnement de test et lancer les tests :
-
-```bash
-# Création d'un environnement virtuel en Python 3
-python3 -m venv venv
-source venv/bin/activate
-
-# Installation des dépendances
-pip install -r requirements.txt
-
-# Test de la validité du schéma
-frictionless validate --type schema schema.json
-
-# Test de la conformité des fichiers d'exemples
-frictionless validate --schema schema.json exemple-valide.csv
-```
-
-## Étapes à suivre
-
-Nous détaillons ci-dessous les étapes que nous vous conseillons de suivre après avoir créé votre dépôt Git, tout en utilisant les fichiers d'exemples.
-
-- [ ] Décrire votre schéma dans le fichier `schema.json` en respectant la spécification Table Schema. Le fichier d'exemple comprend des valeurs d'exemples pour toutes les métadonnées possibles. Notez que les champs d'exemple ne comprennent qu'une petite partie des types, formats et contraintes disponibles, référez-vous à [la documentation](https://specs.frictionlessdata.io/table-schema/#types-and-formats) pour toutes les valeurs possibles. Si certaines métadonnées ne sont pas nécessaires pour votre projet, vous pouvez les supprimer. Pour vérifier que votre schéma est conforme, vous pouvez utiliser l'outil [tableschema](https://pypi.org/project/tableschema/) en ligne de commande : `tableschema validate schema.json`
-- [ ] Modifier le fichier d'exemple CSV avec des données conforme à votre schéma. L'outil [frictionless](https://pypi.org/project/frictionless/) permet de vérifier que vos fichiers sont conformes au schéma en ligne de commande `frictionless validate --schema schema.json exemple-valide.csv`
-- [ ] Modifier le fichier [`CHANGELOG.md`](CHANGELOG.md) pour indiquer la publication initiale
-- [ ] Modifier le fichier [`README.md`](README.md), en supprimant tout son contenu tout d'abord. Au sein de plusieurs paragraphes, vous indiquerez le contexte, les modalités de production des données, le cadre juridique, la finalité, les cas d’usage etc. Consultez plusieurs schémas sur [schema.data.gouv.fr](https://schema.data.gouv.fr) pour découvrir quelles informations sont pertinentes à indiquer
-- [ ] Vérifier que la licence ouverte vous convient. Si vous devez utiliser une autre licence, modifiez le fichier [`LICENSE.md`](LICENSE.md) et indiquez la licence dans le fichier [`schema.json`](schema.json), dans la clé `licenses`
-
-
-## Documentation
-
-Pour vous aider dans la construction de votre dépôt, nous vous recommandons de vous référer à :
-
-- [Le guide à destination des producteurs de schéma](https://guides.etalab.gouv.fr/producteurs-schemas/)
-- [La documentation de schema.data.gouv.fr](https://schema.data.gouv.fr)
-- [La spécification Table Schema](https://specs.frictionlessdata.io/table-schema/)
+## Voir aussi
+- [Exemple valide](https://github.com/etalab/schema-indice-reparabilite/blob/master/exemple-valide.csv)
+- Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
+    - adresser un message à sde2.sevs.cgdd@developpement-durable.gouv.fr
+    - [ouvrir un ticket](https://github.com/etalab/schema-indice-reparabilite/issues) sur le dépôt GitHub du schéma
