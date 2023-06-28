@@ -112,7 +112,7 @@
             "type": "string",
             "constraints": {
                 "required": true,
-                "pattern": "^[\\w.]+-[\\w.]+-\\d{4}-\\d{2}-\\d{2}$"
+                "pattern": "^[\\w.]+-[\\w]+-\\d{4}-\\d{2}-\\d{2}$"
             }
         },
         {
@@ -173,7 +173,7 @@
             "type": "string",
             "constraints": {
                 "required": true,
-                "pattern": "^[\\w.]+$"
+                "pattern": "^[\\w]+$"
             }
         },
         {
