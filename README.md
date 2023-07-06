@@ -29,7 +29,7 @@ Le renseignement du répertoire national relatif à l’indice de réparabilité
 
 ## Création d'un fichier de données conforme
 
-* Les données collectées doivent respecter un formalisme particulier (schéma de données) décrit sur [la section documentation](https://schema.data.gouv.fr/etalab/schema-indice-reparabilite/latest/documentation.html) de cette page.
+* Les données collectées doivent respecter un formalisme particulier (schéma de données) décrit sur la section documentation de cette page.
 * Les données sont à remplir au format CSV, encodage UTF-8.
 * Plusieurs solutions existent pour générer ce fichier CSV.
 
