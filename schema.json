@@ -8,7 +8,7 @@
     ],
     "countryCode": "FR",
     "homepage": "https://github.com/etalab/schema-indice-reparabilite",
-    "path": "https://github.com/etalab/schema-indice-reparabilite/blob/master/schema.json",
+    "path": "https://raw.githubusercontent.com/etalab/schema-indice-reparabilite/master/schema.json",
     "image": "",
     "licenses": [
         {
