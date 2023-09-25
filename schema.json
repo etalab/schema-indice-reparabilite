@@ -1,14 +1,14 @@
 {
     "$schema": "https://specs.frictionlessdata.io/schemas/table-schema.json",
-    "name": "schema-indice-reparabilite",
+    "name": "indice-reparabilite",
     "title": "Indice de réparabilité",
-    "description": "Schéma indice de réparabilité",
+    "description": "Schéma de données pour l'indice de réparabilité",
     "keywords": [
         "reparabilite"
     ],
     "countryCode": "FR",
     "homepage": "https://github.com/etalab/schema-indice-reparabilite",
-    "path": "https://github.com/etalab/schema-indice-reparabilite/blob/master/schema.json",
+    "path": "https://raw.githubusercontent.com/etalab/schema-indice-reparabilite/master/schema.json",
     "image": "",
     "licenses": [
         {
@@ -83,7 +83,7 @@
         }
     ],
     "created": "2023-05-19",
-    "lastModified": "2023-09-19",
+    "lastModified": "2023-09-25",
     "version": "0.1.2",
     "contributors": [
         {
@@ -151,19 +151,18 @@
             "constraints": {
                 "required": true,
                 "enum": [
-                    "aspirateur filaire",
-                    "aspirateur non filaire",
-                    "aspirateur robot",
-                    "lave linge hublot",
-                    "lave linge top",
-                    "lave vaisselle",
+                    "Aspirateur filaire",
+                    "Aspirateur non filaire",
+                    "Aspirateur robot",
+                    "Lave-linge à chargement frontal (ou Lave-linge hublot)",
+                    "Lave-linge à chargement par le haut (ou Lave-linge top)",
                     "ordinateur portable",
-                    "smartphone",
-                    "tondeuse batterie",
-                    "tondeuse robot",
-                    "téléviseur",
-                    "nettoyeur haute pression",
-                    "tondeuse filaire"
+                    "Smartphone",
+                    "Tondeuse à gazon électrique batterie",
+                    "Tondeuse à gazon électrique robot",
+                    "Tondeuse à gazon électrique filaire",
+                    "Nettoyeur haute pression",
+                    "Téléviseur"
                 ]
             }
         },
@@ -183,7 +182,7 @@
             "constraints": {
                 "required": true,
                 "enum": [
-                    "GTIN_EAN",
+                    "GLN",
                     "SYDEREP"
                 ]
             }
