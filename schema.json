@@ -83,7 +83,7 @@
         }
     ],
     "created": "2023-05-19",
-    "lastModified": "2023-09-25",
+    "lastModified": "2023-09-27",
     "version": "0.1.2",
     "contributors": [
         {
@@ -357,7 +357,7 @@
             "description": "La note du sous-critère 5.2 (le cas échéant) : note sur 10 comportant une décimale",
             "type": "number",
             "constraints": {
-                "required": true,
+                "required": false,
                 "minimum": 0,
                 "maximum": 10
             }
@@ -367,7 +367,7 @@
             "description": "La note du sous-critère 5.3 (le cas échéant) : note sur 10 comportant une décimale",
             "type": "number",
             "constraints": {
-                "required": true,
+                "required": false,
                 "minimum": 0,
                 "maximum": 10
             }
