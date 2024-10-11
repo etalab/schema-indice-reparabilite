@@ -42,6 +42,18 @@ Pour faciliter le remplissage des données, Etalab met à disposition un génér
 
 Une fois vos données chargées ou remplies, un formulaire vous proposera de les publier sur data.gouv.fr.
 
+## foire aux questions 
+La saisie des notes de l'indice de réparabilité est-elle obligatoire ? 
+La saisie des notes pour l'indice de réparabilité est faite sur base de volontariat uniquement. De ce fait, les notes sur la plateforme ne réprésentent pas forcément une exhaustivité des données du marché.
+
+Quel est le lien avec les calculs d'éco-modulation ?
+Les évolutions des critères d'éco-modulation intègrent l'indice de réparabilité pour le calcul du bonus quand l'indice est en vigueur. 
+Seules les notes saisies sur la plateforme pourront être prise en compte dans le calcul du bonus par les éco-organismes. 
+ 
+
+Quelle est la fréquence de mise à jour des notes sur la plateforme ? 
+Il est recommandé de ne pas faire de mise à jour des notes plus d'une fois par an. 
+
 ## Voir aussi
 - [Exemple valide](https://github.com/etalab/schema-indice-reparabilite/blob/master/exemple-valide.csv)
 - Pour poser une question, commenter, faire un retour d’usage ou contribuer à l’amélioration du modèle de données, vous pouvez :
